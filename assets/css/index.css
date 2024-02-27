@@ -1500,10 +1500,12 @@ letter-spacing: -0.4px;
     .main1{
         display: flex;
         flex-direction: column-reverse;
+        width: 350px;
+        height: 64px;
     }
        
     .none-img{
-        width: 380px;
+        width: 450px;
         display: block;
         display: flex;
         flex-direction: column;
@@ -1515,14 +1517,14 @@ letter-spacing: -0.4px;
     .none-img img{
         display: flex;
         justify-content: center;
-        width: 400px;
+        width: 290px;
         /* height: 229px; */
-        padding-left: 80px; 
+       margin-left: 50px; 
 
     }
     .article1 {
         text-align: center;
-        width: ;
+        width: 290px;
         margin-left: 150px;
     }
     .article1 h1{
@@ -1540,27 +1542,29 @@ line-height: 40px; /* 133.333% */
     }
     .article1 p{
         /* margin: 36px; */
-        font-size: 18px;
+        width: auto;
+        font-size: 22px;
         color: var(--Gray, #66645E);
         text-align: center;
 font-family: "Open Sans";
 font-style: normal;
 font-weight: 400;
-line-height: 32px; /* 177.778% */
+/* line-height: 32px; 177.778% */
 letter-spacing: -0.36px;
 margin-top: 24px;
 width: 291px;
-height: 109px;
+/* height: 109px; */
 flex-shrink: 0;
     }
     .article1 button{
         display: flex;
-        justify-content: center;
-        width: 220px;
-        height: 64px;
+        /* justify-content: center; */
+        /* width: 220px;
+        height: 64px; */
      flex-shrink: 0;
-margin-left: 220px;
+     margin-left: 100px;
 /* text-align: center; */
+/* padding-right: 0; */
 
     }
 
@@ -1632,6 +1636,9 @@ line-height: 32px; /* 177.778% */
     .section1 p{
         display: none;
     }
+    .section1{
+        width: 220px;
+    }
     .section1 button{
         width: 220px;
         display: inline-flex;
@@ -1646,8 +1653,8 @@ font-style: normal;
 font-weight: 700;
 line-height: 24px; /* 133.333% */
 /* margin-left: 240px; */
-margin-left: 73px;
-margin-top: 47px;
+margin-left: 170px;
+/* margin-top: 70px; */
 
     }
     .section1-bg{
@@ -1663,8 +1670,9 @@ margin-top: 47px;
     .section2{
         width: 291px;
         height: 235px;
-        margin-top: 118px;
-        
+        margin-top: 100px;
+        margin-left: 0;
+             
         
     }
 
@@ -1680,6 +1688,8 @@ font-style: normal;
 font-weight: 700;
 line-height: 40px; /* 133.333% */
 /* margin-left: -50px; */
+margin-top: 0px;
+margin-right: 80px;
     }
 
     .section2 p{
@@ -1709,6 +1719,9 @@ letter-spacing: -0.36px;
         /* margin-top: 120px; */
         margin-left: 70px;
         
+    }
+    .card1{
+        margin-top: 43px;
     }
 
 
